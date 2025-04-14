@@ -1,0 +1,20 @@
+.navAlign{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navAlign ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    width: 1200px;
+}
+
+.linkStyle{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
