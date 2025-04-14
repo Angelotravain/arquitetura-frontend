@@ -1,6 +1,6 @@
-import { useMovies } from './../hooks/useMovies';
+import { useMovies } from './../../hooks/useMovies';
 import styles from './movies.module.css';
-import { MovieItem } from './../components/MovieItem/MovieItem';
+import { MovieItem } from './../../components/MovieItem/MovieItem';
 
 export function Movies(){
     const movies = useMovies();
