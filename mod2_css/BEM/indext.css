@@ -1,0 +1,14 @@
+/* BEM => block -> Element -> Modifier */
+
+
+.nav-item{
+    font-weight: bold;
+}
+
+.nav-item__item{
+    background-color: green;
+}
+
+.nav-item__item--is-active{
+    background-color: red;
+}
