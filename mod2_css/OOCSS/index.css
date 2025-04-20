@@ -1,0 +1,48 @@
+/* OOCSS -> CSS orientado a objetos */
+
+
+/* Dividimos em dois tipos Structure */
+
+/* width | height | padding | margin | overflow */
+
+/* Skin: */
+
+/* Color | background | Font | Shadow */
+
+
+/* Exemplos: */
+
+/* Abaixo exemplo de duas classes de botões, 
+onde elas utilizam de atributos iguais em 
+sua maior parte. */
+
+
+/* .button{
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.button-2{
+    width: 150px;
+    height: 50px;
+    background: #000;
+    border-radius: 5px;
+} */
+
+/* Exemplo correto segundo o padrão: */
+
+/* .skin-1{
+    background: white;
+}
+
+.skin-2{
+    background: black;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+} */

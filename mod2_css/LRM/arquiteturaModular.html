@@ -1,0 +1,59 @@
+// Arquitetura modular
+
+/*
+    Arquitetura modular - AM
+
+    Dados logados -> usado em geral 
+
+    Tema visual -> Dark mode
+
+    Filtro de elementos visuais
+
+    SSOT => Single source of Truth;
+    (
+        Tenho uma unica store que é responsável para 
+        armazenar esses Dados;
+    )
+
+    Arquitetura flux que utiliza para gerenciamento de estados
+
+    Redux é uma aplicação da arquitetura flux
+
+    module-arquiteture
+
+    api
+        Cart.js
+        Product.js
+        User.js
+    Components
+        button
+        modal
+        navbar
+        tooltip
+    pages
+        Home.js
+        Login.js
+        ProductDetail.js
+        Products
+    Routes
+        Cart
+        index
+        Products
+    store
+        action
+        reducers
+
+        Aplicações de pequeno e médio porte
+
+
+    putra opção é dividir isso por domínio 
+    onde cada pasta tem a mesma estrutura e separa por módulos
+
+    e tenho uma pasta Shared que tem componentes
+    que podem ser compartilhados por todos os módulos
+
+    SmartContainers -> componentes que tem lógicas 
+    e são montados em containers (pages)
+
+    
+*/
